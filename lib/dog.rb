@@ -3,5 +3,5 @@
 class Dog
 
   def initializes(name)
-    
+
 end

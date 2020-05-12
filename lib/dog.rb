@@ -20,7 +20,9 @@ class Dog
   end
 
   def self.print_all
-    print @@all
+    @@all.each do |doggie|
+      print "#{doggie}"
+    end
   end
 
 end
